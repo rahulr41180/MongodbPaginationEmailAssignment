@@ -1,0 +1,25 @@
+{
+  "name": "mongodbpaginationemailassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulr41180/MongodbPaginationEmailAssignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulr41180/MongodbPaginationEmailAssignment/issues"
+  },
+  "homepage": "https://github.com/rahulr41180/MongodbPaginationEmailAssignment#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8",
+    "nodemailer": "^6.7.3"
+  }
+}
