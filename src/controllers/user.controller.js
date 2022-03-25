@@ -27,8 +27,8 @@ async function MailToUser(User)
 
 async function MailToAdmin(Admin, User)
 {
-    // try
-    // {
+    try
+    {
         transporter.sendMail({
 
             from : '"Rahul Rathor" <rahulrathor@example.com>',
@@ -37,11 +37,11 @@ async function MailToAdmin(Admin, User)
             text : `Please welcome ${User.first_name} ${User.last_name}`,
             html : `<b>Please welcome ${User.first_name} ${User.last_name}</b>`
         })
-    // }
-    // catch(error)
-    // {
+    }
+    catch(error)
+    {
 
-    // }
+    }
 }
 
 router.post("", async(req,res) =>
